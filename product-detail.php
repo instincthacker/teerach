@@ -58,7 +58,7 @@
 }
 </style>
 </head>
-<body style="padding-top: 5.5%;">
+<body>
 
 
 <!-- PRE LOADER -->
@@ -78,7 +78,6 @@ $sql = "SELECT  * FROM products WHERE Pro_ID = '".$_GET['pro_id']."'";
 $query = $conn->query($sql);
 $result = mysqli_fetch_array($query,MYSQLI_ASSOC); 
 ?>
-<div class="content">
   <div style=" background-color: #ffffff; padding: 0px;">
     <div class="col-md-12 col-sm-12 text-right" style=" background-color: #1E2D5A; padding-top: 1%; padding-bottom: 1%; margin: 0px; color: #ffffff; padding-right:5%;" >
       <a href="index.php">Home</a> / <a href="#">Products</a> /<?= $result['Pro_Name']; ?>
@@ -110,7 +109,6 @@ $result = mysqli_fetch_array($query,MYSQLI_ASSOC);
           <?= $result['Pro_Descpt']; ?>
         </div> 
       </div>
-  </div>
 
   <!-- <section id="divider" style="background: #e6e6e6">
     <div class="row">

@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top my-navbar" style="height: 80px;">
+<div class="navbar navbar-default my-navbar" style="height: 80px; z-index: 999;">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

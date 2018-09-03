@@ -70,7 +70,7 @@ include 'include/condb.php';
 		</div>
 
 		<!-- ###################### Start Content ############################# -->
-		<div class="visible-lg visible-md" style=" background-color:  #3f3f3f;padding: 100px;">
+		<div class="visible-lg visible-md fblack" style=" background-color:  #fff; padding: 100px;">
 			<?php
     $sql = "SELECT * FROM groups 
             WHERE Group_Name = '".$_GET['group']."'";

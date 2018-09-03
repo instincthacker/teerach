@@ -207,7 +207,7 @@ include 'include/condb.php';
 						<!-- Tab content -->
 						<div id="1" class="Numb">
 							<div class="col-md-6" style="padding:0 2% 0 2%;">
-								<h3>Databar Company Limited (Branch 00001)</h3>
+								<h3>DATABAR Company Limited (Branch 00001)</h3>
 								<p>Tax ID &nbsp;0105557033628<br>1448/15 Crystal Design Center (CDC), L2, 2FL., Room 202, 204, 206, 208, Soi Ladprao 87 (Chandra Suk), Praditmanuthum Rd., Klongjan, Bangkapi, Bangkok 10240 THAILAND.</p>
 								<div class="icon-contact">
 									<p><span style="font-weight:700">T</span> &nbsp;+66 (0) 2 102-2591 (Auto)</p>

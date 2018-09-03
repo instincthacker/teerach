@@ -83,7 +83,7 @@ include 'include/condb.php';
 					<div class="row" style="display:flex; flex-wrap: wrap; align-items: center; justify-content: center; min-height:400px;">
 						<div class="col-md-12">
 							<h1 class="wow fadeInUp" data-wow-delay="0.6s" style=" margin: 0; padding : 0 0% 0 0%; font-weight: 700;">Samsung Corporate Service Centre</h1>
-							<p class="wow fadeInUp" data-wow-delay="0.8s" style="color: white; padding: 2% 10% 0 10%; margin: 0;">Whether it's a product repair or just some help and advice. We are authorised service centre for corporate or enterprise customers that can help you. All are fully trained and use genuine parts in all repairs from Samsung and other brand’s original sources. Find your product type below to contact us to get the support you need.</p>
+							<p class="wow fadeInUp" data-wow-delay="0.8s" style="color: white; padding: 2% 10% 0 10%; margin: 0; font-size:18px;">Whether it's a product repair or just some help and advice. We are authorised service centre for corporate or enterprise customers that can help you. All are fully trained and use genuine parts in all repairs from Samsung and other brand’s original sources. Find your product type below to contact us to get the support you need.</p>
 						</div>
 
 					</div>

@@ -98,90 +98,48 @@ include 'include/condb.php';
 				p {
 					padding: 0 10% 0 10%;
 				}
+                .border-logo{
+                    padding: 0;
+                    border: 0.1px solid #eee;
+                }
 				.box-logo {
-					width: 290px;
 					height: 130px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					border: 0.1px solid #eee;
-
 				}
 
 				.box-logo img {
-					width: 180px;
+					width: 60%;
 				}
 
 				.box-logosmall {
-					width: 290px;
 					height: 130px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					border: 0.1px solid #eee;
+					
 
 				}
 
 				.box-logosmall img {
-					width: 210px;
+					width: 70%;
 				}
 
 				@media (max-width: 990px) {
-
-					.box-logo {
-						width: 250px;
-						height: 110px;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						border: 0.1px solid #eee;
-
-
-					}
-					.box-logo img {
-						width: 140px;
-					}
-					.box-logosmall {
-						width: 250px;
-						height: 110px;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						border: 0.1px solid #eee;
-
-					}
-					.box-logosmall img {
-						width: 180px;
-					}
+                    .box-logo {
+                        
+                    }
+					
 				}
 
 				@media (max-width: 560px) {
-					.box-logo {
-						width: 130px;
-						height: 80px;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						border: 0.1px solid #eee;
-						"
-
-					}
-					.box-logo img {
-						width: 80px;
-					}
-					.box-logosmall {
-						width: 130px;
-						height: 80px;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						border: 0.1px solid #eee;
-						
-					
-					}
-					.box-logosmall img {
-						width: 120px;
-					}
+					.box-logo img{
+                        width: 80%;
+                    }
+                    .box-logosmall img{
+                        width: 90%;
+                    }
 				}
 			</style>
 			<div class="container-fluid fblack center">
@@ -191,76 +149,118 @@ include 'include/condb.php';
 				<div class="row" style="padding:0 0 2%;">
 				<div class="box-center" style="display:flex; align-items: center; justify-content: center; width: 100%;">
 					<div class="col-md-12">
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.samsung.com/us/business/"><img src="images/business-partners/samsungbusiness.jpg"></a>
+							</div>
 						</div>
-						<div class="col-md-2 col-sm-2 col-xs-3 box-logosmall">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logosmall">
 							<a href="#"><img src="images/business-partners/Authorized service_Non_BG.png"></a>
+							</div>
 						</div>
 
-						<div class="col-md-2 col-sm-2 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.samsungknox.com/en"><img src="images/business-partners/Logo-Samsung-Knox.png"></a>
+							</div>
 						</div>
-						<div class="col-md-2 col-sm-2 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="#"><img src="images/business-partners/Samsung_Galaxy.png"></a>
+							</div>
 						</div>
-						<div class="col-md-2 col-sm-2 col-xs-3 box-logosmall">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logosmall">
 							<a href="#"><img src="images/business-partners/Samsung_GalaxyTab_Active2.jpg"></a>
+							</div>
 						</div>
-						<div class="col-md-2 col-sm-2 col-xs-3 box-logosmall">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logosmall">
 							<a href="#"><img src="images/business-partners/Samsung_GalaxyXCover4.jpg"></a>
+                            </div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.datalogic.com"><img src="images/business-partners/Datalogic-logo-large.png"></a>
+							</div>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="http://www.sam4s.com"><img src="images/business-partners/sam4s.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
-							<a href="https://www.koamtac.com"><img src="images/business-partners/bullitt.jpg"></a>
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
+							<a href="https://bullitt-group.com/"><img src="images/business-partners/bullitt.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.catphones.com"><img src="images/business-partners/catphone.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="http://www.ute.com"><img src="images/business-partners/unitech.png"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.bartec.de"><img src="images/business-partners/Bartec.svg.png"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.ecom-ex.com"><img src="images/business-partners/Ecom-Instruments.png" ></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.toshibatec.com"><img src="images/business-partners/toshiba-tec.jpg" ></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="http://www.bixolon.com"><img src="images/business-partners/bixolon.jpg" ></a>
 						</div>
-
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.rammount.com"><img src="images/business-partners/RAM-Logo-no-logo-no-website-Black.png"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="http://www.gamberjohnson.com"><img src="images/business-partners/gamber-johnson.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.koamtac.com"><img src="images/business-partners/koamtac.jpg"></a>
 						</div>
+                        </div>
 
-
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.centrify.com"><img src="images/business-partners/centrify-logo.png"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://koolspan.com"><img src="images/business-partners/Koolspan.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="http://www.vocal-vest.com"><img src="images/business-partners/vocal-vest.jpg"></a>
 						</div>
-						<div class="col-md-2 col-sm-3 col-xs-3 box-logo">
+                        </div>
+						<div class="col-md-2 col-sm-3 col-xs-4 border-logo">
+						<div class="box-logo">
 							<a href="https://www.42gears.com"><img src="images/business-partners/42gear.jpg"></a>
 						</div>
+                        </div>
 					</div>
 				</div>
 				</div>
@@ -268,16 +268,16 @@ include 'include/condb.php';
 				<p>DATABAR offers our channel partners; mobile operators, system integrators, technology solution providers, value-added resellers (VARs); a broad selection of comprehensive Samsung enterprise mobility; smartphones, consumer graded tablets, Samsung Galaxy Tab Active; Samsung KNOX, barcode and complementary solutions like barcode scanners, wireless handheld scanners, mobile computers, barcode printers, and mobile printers and POS printers including services, from financing, education, training and business development resources to marketing services and pre- and post-sale technical assistance. We welcome your participation in our DATABAR channel partner programs and communities.</p>
 				<div class="row" style="padding:3% 0 5%;">
 					<div class="col-md-10 col-md-offset-1">
-						<div class="col-md-4">
-							<a href=""><img alt="" width="210px" src="images/channel-partners/AIS-logo-.jpg"></a>
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<a href=""><img alt="" width="55%" src="images/channel-partners/AIS-logo-.jpg"></a>
 							<!--					<h4>Advanced Info Services Plc. (AIS)</h4>-->
 						</div>
-						<div class="col-md-4">
-							<a href=""><img alt=""width="200px"  src="images/channel-partners/dtac-logo.jpg"></a>
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<a href=""><img alt=""width="53%"  src="images/channel-partners/dtac-logo.jpg"></a>
 							<!--					<h4>Total Access Communication Public Company Limited (DTAC)</h4>-->
 						</div>
-						<div class="col-md-4">
-							<a href=""><img alt="" width="145px"  src="images/channel-partners/true-logo.jpg"></a>
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<a href=""><img alt="" width="40%"  src="images/channel-partners/true-logo.jpg"></a>
 						</div>
 					</div>
 				</div>
