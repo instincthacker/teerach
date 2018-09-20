@@ -33,6 +33,7 @@
         margin: 0 auto;
         padding: 11px 0;
         font-weight: 700;
+        transition: 0.6s;
         
 
     }
@@ -40,26 +41,39 @@
              padding:  10px 0;
          }
     .navdatabar>li:hover {
-        font-size: 18px;
         background: #eee;
+    }
+    .navdatabar>a:hover {
 
+        background: transparent;
+
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+        background-color: transparent;
     }
     .dropdown-menu li {
         font-size: 14px;
     }
 
-    .dropdown {
-        position: initial;
+    li.dropdown {
+/*        position: initial;*/
+        
     }
 
     .dropdown-menu {
-        width: 100%;
+        transition: 0.6s;
+/*        width: 30%;*/
         background-color: #fff;
+/*        padding:20px;*/
+        left: 50%;
+        right: auto;
     }
+    .dropdown-menu-center {
+}
 
     .dropdown-menu li a {
         padding: 10px 15px;
-        font-weight: 300;
+        font-weight: 700;
     }
 
     .multi-column-dropdown {
@@ -103,11 +117,11 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         
-            <ul class="nav navbar-nav navbar-right navdatabar">
+            <ul class="nav navbar-nav navbar-right navdatabar" data-hover="dropdown" data-animations="fadeInUp fadeInRight fadeInUp fadeInLeft">
                <li><a href="aboutus.php">About US</a></li>
-                <li class="dropdown" style="position: initial;">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-column columns-3 dropdown-color" style="width: 100%; padding:20px;">
+                    <ul class="dropdown-menu dropdown-menu-left multi-column columns-3 dropdown-color">
                         <div class="row">
                             
                             <div class="col-sm-12">
